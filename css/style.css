@@ -1,0 +1,281 @@
+        * {
+            margin: 0;
+        }
+
+        body {
+            background-color: black;
+            color           : white;
+            font-size       : 18px;
+            text-align      : center;
+            margin          : 0 auto;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-size  : 25px;
+            font-weight: bold;
+            text-shadow: 3px 2px 3px #7a0303;
+            margin: 10px 0;
+        }
+
+        #head-section {
+            background-color: blueviolet;
+            background-image   : url(../images/bg/altcoin-collection.jpg);
+            background-size    : contain;
+            /* background-repeat  : no-repeat; */
+            background-position: center;
+            padding            : 10px 0;
+            margin             : 5px 0;
+
+        }
+
+        nav ul {
+            margin: 40px 0 20px -36px;
+        }
+
+        nav ul li {
+            background-color: #1b1a53;
+            color           : white;
+            padding         : 10px;
+            border          : 3px solid #99335d;
+            border-radius   : 50%;
+            display         : inline-block;
+            font-weight     : bold;
+            font-size       : 18px;
+            margin          : 2px;
+            width           : 100px;
+        }
+
+
+        nav ul li:hover {
+            background-color: white;
+            color           : #e03eb8;
+            box-shadow      : 3px 3px 4px grey;
+
+        }
+
+        nav ul li:active {
+            background-color: white;
+            color           : #fd7ffd;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .items {
+            margin: 20px 0;
+        }
+
+        #coinpot-section {
+            background-color: #7a93a8;
+            padding         : 10px;
+        }
+
+        #coinpot-section a {
+            color           : white;
+            display         : inline-block;
+            background-color: #7a0303;
+            border          : 2px solid transparent;
+            border-radius   : 5px;
+            margin          : 3px;
+            padding         : 2px;
+
+        }
+
+        #coinpot-section a:hover {
+            color           : #7a0303;
+            background-color: white;
+            box-shadow      : 3px 3px 4px grey;
+        }
+
+        #coinpot-section a img {
+            width : 80px;
+            height: 80px;
+        }
+
+        #coinpot-section a .links {
+            border       : 2px solid white;
+            border-radius: 5px;
+            width        : 80px;
+            height       : 80px;
+
+        }
+
+        #coinpot-section a .links .text {
+            position: relative;
+            top     : 35%;
+        }
+
+        #wallet-section{
+            background-color: cornflowerblue;
+        }
+
+        #wallet-section .items a .links{
+            background-color: darkblue;
+            font-size: 40px;
+            font-weight: bold;
+            border       : 2px solid white;
+            border-radius: 5px;
+            width        : 80px;
+            height       : 80px;
+        }
+
+        #faucetpay-section {
+            background-color: #797979;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        #faucetpay-section a {
+            color           : white;
+            display         : inline-block;
+            background-color: #7a0303;
+            border          : 2px solid transparent;
+            border-radius   : 5px;
+            margin          : 3px;
+            padding         : 5px;
+
+        }
+
+        #faucetpay-section a img {
+            border-radius: 5px;
+            width        : 80px;
+            height       : 80px;
+
+        }
+
+
+        #faucetpay-section a .links {
+            border       : 2px solid white;
+            border-radius: 5px;
+            width        : 80px;
+            height       : 80px;
+
+        }
+
+        #faucetpay-section a .links .text {
+            font-size: 0.8rem;
+            position : relative;
+            top      : 39%;
+        }
+
+        #faucetpay-section a:hover {
+            color           : #7a0303;
+            background-color: white;
+            box-shadow      : 3px 3px 4px grey;
+            font-weight: bold;
+        }
+
+        #faucetpay-section a .links:hover {
+            border: 2px solid #7a0303;
+        }
+
+
+        /* Contribution Section  */
+
+        #rules-section {
+            text-align: left;
+            padding   : 10px;
+
+        }
+
+        #rules-section ol li {
+            margin-left: -30px;
+        }
+
+        .crypto-section {
+            border-radius: 10px;
+            box-shadow   : 3px 3px 3px;
+            padding      : 10px;
+            margin-bottom: 10px;
+        }
+
+        .crypto-section:hover{
+            box-shadow   : 3px 3px 3px black;
+        }
+
+        #btc-section {
+            background-color: rgb(209, 125, 0);
+            background-image   : url(../images/bg/bitcoin1.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        #eth-section {
+            background-color: rgb(252, 235, 2);
+            background-image   : url(../images/bg/Ethereum-Dark-BG-e1543206495545-725x433.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        #ltc-section {
+            background-color: #e40000cc;
+            background-image   : url(../images/bg/litecoin.jpg);
+            background-size: contain;
+            background-position: center;
+
+        }
+
+        #bch-section {
+            background-color: green;
+            background-image   : url(../images/bg/btc-cash-800x467.png);
+            background-size: contain;
+            background-position: center;
+        }
+
+        #dge-section {
+            background-color: rgb(128, 109, 0);
+            background-image   : url(../images/bg/doge.jpg);
+            background-size: contain;
+            background-position: center;
+        }
+
+        #rpp-section {
+            background-color: rgb(0, 128, 117);
+            background-image   : url(../images/bg/ripple-image.jpg);
+            background-size: contain;
+            background-position: center;
+
+        }
+
+        #digibyte-section{
+            background-color: rgb(0, 23, 128);
+            background-image   : url(../images/bg/DigiByte.png);
+            background-size: contain;
+            background-position: center;
+        }
+
+        #trx-section{
+            background-color: rgb(30, 34, 34);
+            background-image   : url(../images/bg/TRON-TRX-1.jpg);
+            background-size: contain;
+            background-position: center;
+
+        }
+
+        #dash-section{
+            background-color: rgb(0, 124, 128);
+            background-image   : url(../images/bg/dash11.jpeg);
+            background-size: cover;
+            background-position: center;
+
+
+        }
+
+        #usdt-section{
+            background-color: rgb(255, 186, 107);
+            background-image   : url(../images/bg/tether\ usdtw.jpg);
+            background-size: contain;
+            background-position: center;
+
+        }
+
+        footer {
+            background-color: blueviolet;
+            margin:  10px 0;
+            padding: 10px;
+        }
